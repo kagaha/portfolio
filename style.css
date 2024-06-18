@@ -520,7 +520,7 @@ li a:hover{
         display:none;
 
     }
-    .navbar .active{
+    .navbar.active{
         display:block;
     }
     .navbar a{
@@ -528,6 +528,9 @@ li a:hover{
         font-size:2rem;
         margin:3rem 0;
         color:#fff;
+    }
+    .navbar{
+        color:white;
     }
     .about{
         flex-direction:column-reverse;
